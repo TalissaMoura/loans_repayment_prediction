@@ -165,6 +165,5 @@ For a more detailed analysis see the `reports/report.md` file.
 - For generate the features datasets run the notebooks in the `notebooks/features` folder. They will be
 saved in `data/processed`.
 
-- If you want to create the training dataset locally run: `make data` for non conda venvs and for conda venvs
-use `cd src/data` and `python make_dataset.py ../../data/database ../../data/processed  ../../data/processed`
+- If you want to create the dataset for models locally run: `make data` for non conda venvs and for conda venvs use `cd src/data` and `python make_dataset.py ../../database ../../data/processed  ../../data/processed`
 
