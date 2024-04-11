@@ -1,0 +1,234 @@
+model_features:
+  CAT_FEATURES:
+  - !!binary |
+    bW9zdF9mcmVxdWVudF90cmFuc2FjdGlvbnNfcGF5bWVudF9tZXRob2RfYXRfY3JlYXRlZF9sb2Fu
+  - !!binary |
+    bW9zdF9mcmVxdWVudF90cmFuc2FjdGlvbnNfcGF5bWVudF9tZXRob2RfaW5fbGFzdF9tb250aA==
+  - !!binary |
+    bW9zdF9mcmVxdWVudF90cmFuc2FjdGlvbnNfcGF5bWVudF9tZXRob2RfaW5fbGFzdF90aHJlZV9t
+    b250aHM=
+  - !!binary |
+    bW9zdF9mcmVxdWVudF90cmFuc2FjdGlvbnNfcGF5bWVudF9tZXRob2RfaW5fbGFzdF9zaXhfbW9u
+    dGhz
+  - !!binary |
+    bW9zdF9mcmVxdWVudF9sb2Fuc19yZXBheW1lbnRfbWV0aG9kX2luX2xhc3RfbW9udGg=
+  - !!binary |
+    bW9zdF9mcmVxdWVudF9sb2Fuc19yZXBheW1lbnRfbWV0aG9kX2luX2xhc3RfdGhyZWVfbW9udGhz
+  - !!binary |
+    bW9zdF9mcmVxdWVudF9sb2Fuc19yZXBheW1lbnRfbWV0aG9kX2luX2xhc3Rfc2l4X21vbnRocw==
+  NUM_FEATURES:
+  - !!binary |
+    YW1vdW50
+  - !!binary |
+    dG90YWxfYW1vdW50
+  - !!binary |
+    ZHVlX2Ftb3VudA==
+  - !!binary |
+    c3VtX2FtdF90cmFuc2FjdGlvbnNfYXRfY3JlYXRlZF9sb2Fu
+  - !!binary |
+    c3VtX2FtdF9wYXltZW50X21ldGhvZF9jcmVkaXRfYXRfY3JlYXRlZF9sb2Fu
+  - !!binary |
+    c3VtX2FtdF9wYXltZW50X21ldGhvZF9kZWJpdF9hdF9jcmVhdGVkX2xvYW4=
+  - !!binary |
+    c3VtX2FtdF90cmFuc2FjdGlvbnNfaW5fdmlzYV9hdF9jcmVhdGVkX2xvYW4=
+  - !!binary |
+    c3VtX2FtdF90cmFuc2FjdGlvbnNfaW5fbWFzdGVyY2FyZF9hdF9jcmVhdGVkX2xvYW4=
+  - !!binary |
+    c3VtX2FtdF90cmFuc2FjdGlvbnNfaW5fZWxvX2F0X2NyZWF0ZWRfbG9hbg==
+  - !!binary |
+    bWF4X2FtdF90cmFuc2FjdGlvbnNfYXRfY3JlYXRlZF9sb2Fu
+  - !!binary |
+    bWF4X2luc3RhbGxtZW50c19hdF9jcmVhdGVkX2xvYW4=
+  - !!binary |
+    bWVkaWFuX2luc3RhbGxtZW50c19hdF9jcmVhdGVkX2xvYW4=
+  - !!binary |
+    c3VtX2FtdF90cmFuc2FjdGlvbnNfaW5fbGFzdF9tb250aA==
+  - !!binary |
+    c3VtX2FtdF9wYXltZW50X21ldGhvZF9jcmVkaXRfaW5fbGFzdF9tb250aA==
+  - !!binary |
+    c3VtX2FtdF9wYXltZW50X21ldGhvZF9kZWJpdF9pbl9sYXN0X21vbnRo
+  - !!binary |
+    c3VtX2FtdF90cmFuc2FjdGlvbnNfaW5fdmlzYV9pbl9sYXN0X21vbnRo
+  - !!binary |
+    c3VtX2FtdF90cmFuc2FjdGlvbnNfaW5fbWFzdGVyY2FyZF9pbl9sYXN0X21vbnRo
+  - !!binary |
+    c3VtX2FtdF90cmFuc2FjdGlvbnNfaW5fZWxvX2luX2xhc3RfbW9udGg=
+  - !!binary |
+    bWF4X2FtdF90cmFuc2FjdGlvbnNfaW5fbGFzdF9tb250aA==
+  - !!binary |
+    bWF4X2luc3RhbGxtZW50c19pbl9sYXN0X21vbnRo
+  - !!binary |
+    bWVkaWFuX2luc3RhbGxtZW50c19pbl9sYXN0X21vbnRo
+  - !!binary |
+    YXZnX2FtdF90cmFuc2FjdGlvbnNfaW5fbGFzdF90aHJlZV9tb250aHM=
+  - !!binary |
+    YXZnX2FtdF9wYXltZW50X21ldGhvZF9jcmVkaXRfaW5fbGFzdF90aHJlZV9tb250aHM=
+  - !!binary |
+    YXZnX2FtdF9wYXltZW50X21ldGhvZF9kZWJpdF9pbl9sYXN0X3RocmVlX21vbnRocw==
+  - !!binary |
+    YXZnX2FtdF90cmFuc2FjdGlvbnNfaW5fdmlzYV9pbl9sYXN0X3RocmVlX21vbnRocw==
+  - !!binary |
+    YXZnX2FtdF90cmFuc2FjdGlvbnNfaW5fbWFzdGVyY2FyZF9pbl9sYXN0X3RocmVlX21vbnRocw==
+  - !!binary |
+    YXZnX2FtdF90cmFuc2FjdGlvbnNfaW5fZWxvX2luX2xhc3RfdGhyZWVfbW9udGhz
+  - !!binary |
+    YXZnX2FtdF90cmFuc2FjdGlvbnNfaW5faGlwZXJjYXJkX2luX2xhc3RfdGhyZWVfbW9udGhz
+  - !!binary |
+    bWF4X2FtdF90cmFuc2FjdGlvbnNfaW5fbGFzdF90aHJlZV9tb250aHM=
+  - !!binary |
+    bWF4X2luc3RhbGxtZW50c19pbl9sYXN0X3RocmVlX21vbnRocw==
+  - !!binary |
+    bWVkaWFuX2luc3RhbGxtZW50c19pbl9sYXN0X3RocmVlX21vbnRocw==
+  - !!binary |
+    YXZnX2FtdF90cmFuc2FjdGlvbnNfaW5fbGFzdF9zaXhfbW9udGhz
+  - !!binary |
+    YXZnX2FtdF9wYXltZW50X21ldGhvZF9jcmVkaXRfaW5fbGFzdF9zaXhfbW9udGhz
+  - !!binary |
+    YXZnX2FtdF9wYXltZW50X21ldGhvZF9kZWJpdF9pbl9sYXN0X3NpeF9tb250aHM=
+  - !!binary |
+    YXZnX2FtdF90cmFuc2FjdGlvbnNfaW5fdmlzYV9pbl9sYXN0X3NpeF9tb250aHM=
+  - !!binary |
+    YXZnX2FtdF90cmFuc2FjdGlvbnNfaW5fbWFzdGVyY2FyZF9pbl9sYXN0X3NpeF9tb250aHM=
+  - !!binary |
+    YXZnX2FtdF90cmFuc2FjdGlvbnNfaW5fZWxvX2luX2xhc3Rfc2l4X21vbnRocw==
+  - !!binary |
+    YXZnX2FtdF90cmFuc2FjdGlvbnNfaW5faGlwZXJjYXJkX2luX2xhc3Rfc2l4X21vbnRocw==
+  - !!binary |
+    bWF4X2FtdF90cmFuc2FjdGlvbnNfaW5fbGFzdF9zaXhfbW9udGhz
+  - !!binary |
+    bWF4X2luc3RhbGxtZW50c19pbl9sYXN0X3NpeF9tb250aHM=
+  - !!binary |
+    bWVkaWFuX2luc3RhbGxtZW50c19pbl9sYXN0X3NpeF9tb250aHM=
+  - !!binary |
+    YXZnX3JlcGFpZF90b3RhbF9hbXRfbG9hbnNfaW5fbGFzdF9tb250aA==
+  - !!binary |
+    YXZnX3BjdF9yZXBhaWRfZmlyc3RfbW9udGhfbG9hbnNfaW5fbGFzdF9tb250aA==
+  - !!binary |
+    YXZnX3BjdF9yZXBhaWRfc2VjX21vbnRoX2xvYW5zX2luX2xhc3RfbW9udGg=
+  - !!binary |
+    YXZnX3BjdF9yZXBhaWRfdHJkX21vbnRoX2xvYW5zX2luX2xhc3RfbW9udGg=
+  - !!binary |
+    bWF4X3JlcGFpZF90b3RhbF9hbXRfbG9hbnNfaW5fbGFzdF9tb250aA==
+  - !!binary |
+    cGN0X3JlcGFpZF9sb2Fuc19pbl9sYXN0X21vbnRo
+  - !!binary |
+    YXZnX3JlcGFpZF90b3RhbF9hbXRfbG9hbnNfaW5fbGFzdF90aHJlZV9tb250aHM=
+  - !!binary |
+    YXZnX3BjdF9yZXBhaWRfZmlyc3RfbW9udGhfbG9hbnNfaW5fbGFzdF90aHJlZV9tb250aHM=
+  - !!binary |
+    YXZnX3BjdF9yZXBhaWRfc2VjX21vbnRoX2xvYW5zX2luX2xhc3RfdGhyZWVfbW9udGhz
+  - !!binary |
+    YXZnX3BjdF9yZXBhaWRfdHJkX21vbnRoX2xvYW5zX2luX2xhc3RfdGhyZWVfbW9udGhz
+  - !!binary |
+    bWF4X3JlcGFpZF90b3RhbF9hbXRfbG9hbnNfaW5fbGFzdF90aHJlZV9tb250aHM=
+  - !!binary |
+    cGN0X3JlcGFpZF9sb2Fuc19pbl9sYXN0X3RocmVlX21vbnRocw==
+  - !!binary |
+    YXZnX3JlcGFpZF90b3RhbF9hbXRfbG9hbnNfaW5fbGFzdF9zaXhfbW9udGhz
+  - !!binary |
+    YXZnX3BjdF9yZXBhaWRfZmlyc3RfbW9udGhfbG9hbnNfaW5fbGFzdF9zaXhfbW9udGhz
+  - !!binary |
+    YXZnX3BjdF9yZXBhaWRfc2VjX21vbnRoX2xvYW5zX2luX2xhc3Rfc2l4X21vbnRocw==
+  - !!binary |
+    YXZnX3BjdF9yZXBhaWRfdHJkX21vbnRoX2xvYW5zX2luX2xhc3Rfc2l4X21vbnRocw==
+  - !!binary |
+    bWF4X3JlcGFpZF90b3RhbF9hbXRfbG9hbnNfaW5fbGFzdF9zaXhfbW9udGhz
+  - !!binary |
+    cGN0X3JlcGFpZF9sb2Fuc19pbl9sYXN0X3NpeF9tb250aHM=
+  - !!binary |
+    dGltZV95ZWFycw==
+  - !!binary |
+    YW5udWFsX2ludGVyZXN0X3JhdGU=
+  - !!binary |
+    bW9udGhseV9pbnRlcmVzdF9yYXRl
+model_name: random_forest_clf_for_loan_repaymnt_with_fs
+model_parameters:
+  fit_params:
+    class_weight: balanced_subsample
+    criterion: gini
+    max_depth: 5
+    min_samples_split: 6
+    n_estimators: 480
+    random_state: 82
+  fs_params:
+    select_cols_arr:
+    - true
+    - true
+    - true
+    - true
+    - true
+    - true
+    - true
+    - true
+    - true
+    - true
+    - false
+    - false
+    - true
+    - true
+    - true
+    - true
+    - true
+    - true
+    - true
+    - false
+    - false
+    - true
+    - true
+    - true
+    - true
+    - true
+    - true
+    - false
+    - false
+    - false
+    - false
+    - true
+    - true
+    - true
+    - true
+    - false
+    - true
+    - false
+    - true
+    - false
+    - false
+    - true
+    - false
+    - false
+    - false
+    - true
+    - false
+    - true
+    - true
+    - true
+    - true
+    - true
+    - false
+    - true
+    - true
+    - true
+    - true
+    - true
+    - true
+    - false
+    - false
+    - false
+    - false
+    - false
+    - false
+    - false
+    - false
+    - false
+    - false
+    - false
+    - false
+    - false
+    - false
+    - false
+    - false
+    - false
+  predict_params:
+    decision_threshold: 0.5
+model_target: churn
+model_version: 1
