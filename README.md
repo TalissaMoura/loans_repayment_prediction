@@ -157,7 +157,7 @@ As we can analyze, discounting the losses, we see that the random forest model h
 
 Also, this information confirms what we saw in the chart comparing the ratios above, the random forest it's the model that we least lose gains. This means that we can preserve in worst scenario 89.5% of the gains obtained and about 95.8% in the real scenario.
 
-For a more detailed analysis see the `reports\report.md` file.
+For a more detailed analysis see the `reports/report.md` file.
 
 ## How to run this project?
 - The project itself was based on venv conda. To generate this environment locally, simply run `make create_environment`. If this is not possible, use the file `requirements.txt` and run the command `pip install -r requirements.txt`
