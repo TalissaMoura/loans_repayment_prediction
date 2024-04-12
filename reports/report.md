@@ -272,7 +272,9 @@ the random forest it's the model that we least lose gains. This means that we ca
 
 ![balanc_of_gains](./figures/balanc_of_gains.png)
 
-With all this information obtained, we can ensure that the optimize model we built it's the precise model to predict loans repayments. The weighted avg f1-score of the random forest was 0.76 (4% gain compared to decision tree and 1.3% loss compared to the heuristic model), precision 0.8 (4% gain compared to decision tree and 9.6 % in relation to the heuristic model), recall of 0.74 (gain of 1.3% in relation to the decision tree and decrease of 6.3% in relation to the heuristic model) and AUC of 0.79 (gain of 31.7% in relation to the heuristic model and 41% in relation to the decision tree).
+As we can analyze, discounting the losses, we see that the random forest model had the greatest total gain when compared to the model with decision tree and heuristic. Considering the worst case scenario, the random forest model had 11.3% more gain than the decision tree and 12.1% more than the heuristic model, whereas in the real case the random forest model had 5.6% more gain than the decision tree and 5.9% more than the heuristic model.
+
+With all this information obtained, we can ensure that the optimize model we built it's the most precise model to predict loans repayments. The weighted avg f1-score of the random forest was 0.76 (4% gain compared to decision tree and 1.3% loss compared to the heuristic model), precision 0.8 (4% gain compared to decision tree and 9.6 % in relation to the heuristic model), recall of 0.74 (gain of 1.3% in relation to the decision tree and decrease of 6.3% in relation to the heuristic model) and AUC of 0.79 (gain of 31.7% in relation to the heuristic model and 41% in relation to the decision tree).
 
 Also,the random forest presented the greatest gain when compared to the decision tree and the heuristic model. Because this model is able to detect fewer false positives compared to others, the final result considering the real scenario was a gain in revenue above 3M, which, preserves for about 95% of the gains 
 for this model. 
