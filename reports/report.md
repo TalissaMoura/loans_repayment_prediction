@@ -113,7 +113,7 @@ raw data is numeric, so is the resultant features for the models. The final data
         - `avg_pct_repaid_sec_month_loans_in_last_month`: The average percentual of repayments in second month in the last month
         - `avg_pct_repaid_trd_month_loans_in_last_month`: The average percentual of repayments in third month in the last month.
         - `pct_repaid_loans_in_last_month`: The percentual of repaid loans of a user in the last month.
-        - `most_frequent_loans_repayment_type_loans_in_last_month`: The most frequent form of repayment type for loans made by a user in the last month.
+        - `most_frequent_loans_repayment_method_in_last_month`: The most frequent form of repayment type for loans made by a user in the last month.
     - in_last_three_months: in the last three months before the loan creation
         - `avg_repaid_total_amt_loans_in_last_three_months`: The average total_amount of loans repaid that a user had in last three months.
         - `max_repaid_total_amt_loans_in_last_three_months`: The maximum value of loans repaid that a user had in last three months.
@@ -121,7 +121,7 @@ raw data is numeric, so is the resultant features for the models. The final data
         - `avg_pct_repaid_sec_month_loans_in_last_three_months`: The average percentual of repayments in second month in the last three months
         - `avg_pct_repaid_trd_month_loans_in_last_three_months`: The average percentual of repayments in third month in the last three months.
         - `pct_repaid_loans_in_last_three_months`: The percentual of repaid loans of a user in the last three months.
-        - `most_frequent_loans_repayment_type_loans_in_last_three_months`: The most frequent form of repayment type for loans made by a user in the last three months.
+        - `most_frequent_loans_repayment_method_in_last_three_months`: The most frequent form of repayment type for loans made by a user in the last three months.
     - in_last_six_months: in the last six months before the loan creation
         - `avg_repaid_total_amt_loans_in_last_six_months`: The average total_amount of loans repaid that a user had in last six months.
         - `max_repaid_total_amt_loans_in_last_six_months`: The maximum value of loans repaid that a user had in last six months.
@@ -129,7 +129,7 @@ raw data is numeric, so is the resultant features for the models. The final data
         - `avg_pct_repaid_sec_month_loans_in_last_six_months`: The average percentual of repayments in second month in the last six months
         - `avg_pct_repaid_trd_month_loans_in_last_six_months`: The average percentual of repayments in third month in the last six months.
         - `pct_repaid_loans_in_last_six_months`: The percentual of repaid loans of a user in the last six months.
-        - `most_frequent_loans_repayment_in_last_six_months`: The most frequent form of repayment type for loans made by a user in the last six months.
+        - `most_frequent_loans_repayment_method_in_last_six_months`: The most frequent form of repayment type for loans made by a user in the last six months.
 
 ## What model use? What are the baseline models?
 
@@ -217,11 +217,11 @@ The random forest and the heuristic model obtained similar results, especially w
 
 ![roc_curve](./figures/roc_curve.png)
 
-Seeing the ROC curve we see that the best AUC is for the random forest model even for diferent types of false positive rates we see that the random forest have significant better performance that the other models.
+Seeing the ROC curve we see that the best AUC is for the random forest model even for different types of false positive rates we see that the random forest have significant better performance that the other models.
 
-For check the reveune gains, we will evaluate two cases:
+For check the revenue gains, we will evaluate two cases:
   - Gain from loan repaid adjustments: The case in which the model correctly predicted the payment of the loan. In this case we earned interest and fees on the amount borrowed.
-  - Gain in relation to false negatives: This is the case in which the model does not predict payment of the loan but it occurs. This is a case in which interest and fees are earned again.
+  - Gain in relation to false negatives: This is the case in which the model does not predict payment of the loan, but it occurs. This is a case in which interest and fees are earned again.
 
 So, we have these final results:
 
@@ -238,8 +238,8 @@ For each model, how is the impact of false negative and true positive in gains? 
 
 We see that the heuristic model is the one that gives the greatest gains above the other models. Especially, for the true positives.
 
-Now, we need to see the losses for each model, this is informed by the false positives, which is the loans repayments that was predicted to happen
-but it didin't. Let's see the amount of losses table below.
+Now, we need to see the losses for each model, this is informed by the false positives, which is the loans repayments that was predicted to happen,
+but it didn't. Let's see the amount of losses table below.
 
 |models	      |   sum_losses_in_worst_sce	  |  sum_losses_in_real_sce|
 |-------------|-------------------------------|------------------------|
@@ -267,8 +267,8 @@ can preserve for each model gains? With the scenarios defined, the calculated re
 |decision_tree  |	   2984817.64	            |     3366553.47	        |          80.412315	        |        90.696448               |
 |heuristic	    |      2963438.08	            |     3355969.77	        |          79.836340	        |        90.411319               |
 
-The pct columns it's the ratio of the overall gains we had desconting the losses and the overall gain we had for the model. With this information we see that
-the random forest it's the model that we least lose gains. This means that we can preserve in worst scenario 89.5% of the gains obtained and about 95.8% in the real scenario.
+The pct columns it's the ratio of the overall gains we had descounting the losses and the overall gain we had for the model. With this information we see that
+the random forest it's the model that we least lose gains. This means that we can preserve in wrost scenario 89.5% of the gains obtained and about 95.8% in the real scenario.
 
 ![balanc_of_gains](./figures/balanc_of_gains.png)
 
@@ -286,7 +286,7 @@ Also, let's see what features for the random forest model it's the most importan
 
 Through SHAP we see some interesting features for the user to look at:
 
-- A history of being a good payer is very important in determining whether or not a loan will be repaid, if the customer has had a history of being a good payer, this also influences other loans.
+- A history of being a good payer is very important in determining if a loan will be repaid or not, if the customer has had a history of being a good payer, this also influences other loans.
 - The amount of spending in the month prior to the loan and in the month of the loan also has a positive influence, the greater the spending on transactions (whether in credit or debit or card brand), the greater the probability of the customer paying the loan.
 - The value of the loan also matters, the lower the value, the greater the likelihood of paying the loan.
 
