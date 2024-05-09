@@ -203,7 +203,7 @@ Let's check the gain of each model in relation to f1-score, precision, recall an
 |---------------|-----------------------|---------------------|----------------------|-----|
 |random_forest	|        0.80	        |        0.74	      |     0.76             | 0.79|
 |decision_tree	|        0.73	        |        0.73	      |     0.73             | 0.5 |
-|heuristic	    |        0.77	        |        0.79	      |       0              | 0.6 |
+|heuristic	    |        0.77	        |        0.79	      |     0.77             | 0.6 |
 
 ![weighted_metrics_precision_recall_f1score](./figures/weighted_metrics_prec_recall_f1score.png)
 
